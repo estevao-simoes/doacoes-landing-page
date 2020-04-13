@@ -7,15 +7,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <!--- SEO meta tags --->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description"
+        content="O momento que estamos passando é delicado, e sabemos que alguns de nossos colaboradores e parceiros podem estar precisando de nossa ajuda. Vamos nos unir nessa Conexão Positiva e ajudar o nosso ecossistema! Junte-se a nós.">
+    <meta name="author" content="Bild & Vitta">
 
     <!--- Title --->
     <title>Conexão Positiva - Bild & Vitta</title>
 
     <!--- Stylesheets --->
-    <link rel="stylesheet" href="/css/vendor.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/custom.css">
 
 </head>
@@ -28,9 +36,8 @@
             <div class="row h-100 align-items-center">
                 <div class="col-md-6 mx-auto my-auto">
                     <div class="preview-content">
-                        <h1>Conexão Positiva</h1>
-                        <img src="https://csc.bildvitta.com.br/images/brand.png"
-                            class="img-fluid wow prew-float fadeInDown">
+                        <!-- <h1>Conexão Positiva</h1> -->
+                        <img src="assets/conexao-positiva.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -54,28 +61,66 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 center">
+                <div class="col-12 center">
                     <div class="layout mb-space-mob">
-                        <a href="https://forms.microsoft.com/FormsPro/Pages/ResponsePage.aspx?id=m9bHwuEl0027fM7IWj4ZE2XPzZexjxRPopGDNNxjhO9UQ0E5SlhHMjJVUTdKSlJFUTNHMjBNRFNMOS4u"
-                            target="_blank" class="btn-blue btn-big anim">
-                            Quero doar uma única vez
+                        <a href="E" target="_blank" class="btn-blue btn-big anim" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Opções para doação
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 center">
-                    <div class="layout mb-space-mob">
-                        <a href="https://forms.microsoft.com/FormsPro/Pages/ResponsePage.aspx?id=m9bHwuEl0027fM7IWj4ZE2XPzZexjxRPopGDNNxjhO9UMlo3WVVIVDlaTjBHUjNOVlBaUllVWFBJRS4u"
-                            target="_blank" class="btn-blue btn-big anim">
-                            Vou doar dois meses seguidos
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 center">
-                    <div class="layout mb-space-mob">
-                        <a href="https://forms.microsoft.com/FormsPro/Pages/ResponsePage.aspx?id=m9bHwuEl0027fM7IWj4ZE2XPzZexjxRPopGDNNxjhO9UOTE3V0pQUTU0T1BYU0pXRVJDWUhBRkdKTi4u"
-                            target="_blank" class="btn-blue btn-big anim">
-                            Vou doar três meses seguidos
-                        </a>
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" >
+                        Launch demo modal
+                    </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-center" id="exampleModalLabel">
+                                        Opções para doação
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <span class="text-center font-weight-bold h4 mb-2">
+                                                    Doe pela sharity
+                                                </span>
+                                                <p class="text-justify mb-5 mt-2">
+                                                    É uma plataforma parceira que está com a campanha ativa
+                                                    possibilitando doação por boleto e cartão de crédito. <br>
+                                                </p>
+                                                <a href="https://sharity.com.br/conexao-positiva-2?u=297e9d057ce811eabd100a536da30ee4"
+                                                    target="_blank" class="btn-blue btn-big anim">
+                                                    Doar pela Sharity
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-5">
+                                            <div class="col-12">
+                                                <span class="text-center font-weight-bold h4 mb-2">
+                                                    Doe direto para a poupança
+                                                </span>
+                                                <p class="text-left mb-5 mt-2">
+                                                    Banco Santander <br>
+                                                    Agência: 0019 <br>
+                                                    Conta Poupança: 60072552-5 <br>
+                                                    CENTRO DE INTELIGENCIA EM CONSTRUCAO E ADMINISTRACAO LTDA <br>
+                                                    CNPJ: 29.331.999/0001-33 <br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,8 +237,15 @@
     <!----------------- END OF FOOTER --------------->
 
     <!--- Javascriprt ---->
-    <script src="/js/vendor.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
