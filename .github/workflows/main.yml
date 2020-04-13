@@ -28,5 +28,5 @@ jobs:
           password: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            whoami
-            ls -al
+            cd /var/www/html/doacoes-landing-page
+            git pull
