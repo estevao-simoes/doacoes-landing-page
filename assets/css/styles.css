@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    padding-top: 133px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    font-size: 2rem;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.text-gray{
+    color: #706E6E;
+}
+
+.text-orange {
+    color: #ED7203;
+}
+
+.bg-blue {
+    background-color: #007FDA;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+
+.bg-light-orange {
+    background-color: #FFF7ED;
+}
+
+.bg-gray {
+    background-color: #EBEBEB;
+}
+
+.primary-title {
+    font-size: 3rem;
+}
+
+img.img-doacao {
+    height: 180px; 
+    width: 250px;
+}
+
+@media screen and (max-width: 575px) {
+    .primary-title {
+        font-size: 2.5rem;
+    }
+    
+    img.img-doacao {
+        margin-top: 4rem;
+        height: 100px;
+        width: 160px;
+    }
+}
+
+.faq-section .panel-default > .panel-heading {
+    background: #000000;
+}
+
+.faq-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1.5rem;
+    content: "\f106";
+    float: right;
+    margin-top: -12px;
+    color: white;
+}
+
+.faq-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+    color: white;
+}
+
+.btn {
+    border-radius: 0px;
+    border: 2px solid;
+    background: transparent;
+}
+
+.btn.btn-primary {
+    border-color: #007FDA;
+    color: #007FDA;
+}
+
+.btn.btn-primary:hover {
+    color: white;
+}
+
+.btn.btn-secondary {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn.btn-secondary:hover {
+    border-color: #ED7203;
+    background-color: #ED7203;
+    color: white;
+}
