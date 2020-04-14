@@ -2,7 +2,12 @@
   var HISTORY_SUPPORT = !!(history && history.pushState);
 
   var anchorScrolls = {
-    ANCHOR_REGEX: /^#[^ ]+$/,
+    ANCHORS_TO_SCROLL: [
+      '#inicio',
+      '#outras-formas-de-doar',
+      '#sobre-o-projeto',
+      '#faq'
+    ],
     OFFSET_HEIGHT_PX: 132,
 
     /**
@@ -30,8 +35,8 @@
      */
     scrollIfAnchor: function (href, pushToHistory) {
       var match, rect, anchorOffset;
-
-      if (!this.ANCHOR_REGEX.test(href)) {
+      
+      if (this.ANCHORS_TO_SCROLL.indexOf(href) == -1) {
         return false;
       }
 
